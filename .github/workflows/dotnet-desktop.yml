@@ -44,7 +44,7 @@ jobs:
         Configuration: ${{ matrix.configuration }}
 
     - name: Execute unit tests
-      run: dotnet test Airway\AirwayUnitTest\AirwayUnitTest.csproj
+      run: dotnet test /p:Configuration=$env:Configuration
 
     - name: Build the application
       run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
