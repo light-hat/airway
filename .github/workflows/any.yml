@@ -3,12 +3,8 @@ name: Airway commit builder
 on:
   push:
     branches: [ "master" ]
-    tags-ignore:
-      - '**'
   pull_request:
     branches: [ "master" ]
-    tags-ignore:
-      - '**'
 
 jobs:
   build:
