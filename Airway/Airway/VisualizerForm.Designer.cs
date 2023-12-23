@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(887, 495);
             this.Name = "VisualizerForm";
             this.Text = "VisualizerForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VisualizerForm_FormClosing);
             this.ResumeLayout(false);
 
         }
