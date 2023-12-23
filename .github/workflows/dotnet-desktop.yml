@@ -32,11 +32,6 @@ jobs:
 
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1.0.2
-    
-    - name: Upload coverage reports to Codecov
-      uses: codecov/codecov-action@v3
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
     - name: Restore the application
       run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
@@ -44,7 +39,14 @@ jobs:
         Configuration: ${{ matrix.configuration }}
 
     - name: Execute unit tests
-      run: dotnet test /p:Configuration=$env:Configuration
+      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+      with:
+        file: coverage.opencover.xml
+    
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
     - name: Build the application
       run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
