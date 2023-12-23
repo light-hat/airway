@@ -6,7 +6,7 @@ on:
       - '*'
 
 jobs:
-  do_release:
+  #do_release:
     strategy:
       matrix:
         configuration: [Release]
