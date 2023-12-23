@@ -1,5 +1,6 @@
-## [0.0.1](link on compare tags or tag) (2023-12-23)
+## [0.0.1](https://github.com/light-hat/airway/compare/0.0.1...0.0.1) (2023-12-24)
 
-### Added
+### Features
 
-* what was you do here ([commit hash](commit link))
+* Basic interface
+* Determining Available Network Interfaces

@@ -61,10 +61,10 @@ jobs:
     - name: Archive exe artifact
       uses: actions/upload-artifact@v3
       with:
-        name: Airway.exe
+        name: Airway
         path: Airway/Airway/bin/Release/Airway.exe
 
     - uses: ncipollo/release-action@v1
       with:
-        artifacts: "Airway.exe"
+        artifacts: "Airway"
         #bodyFile: "body.md"
