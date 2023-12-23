@@ -5,8 +5,10 @@ on:
     branches: [ "master" ]
     tags:
       - '*'
-  pull_request:
-    branches: [ "master" ]
+  #pull_request:
+  #  branches: [ "master" ]
+  #  tags:
+  #    - '*'
 
 jobs:
 
@@ -56,27 +58,7 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: ncipollo/release-action@v1
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        draft: false
-        prerelease: false
-
-    - uses: actions/upload-release-asset@v1.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: D:\a\airway\airway\Airway\Airway\bin\Release\Airway.exe
-        asset_name: Airway.exe
-
-    - uses: eregon/publish-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        release_id: ${{ steps.create_release.outputs.id }}
+        artifacts: "Airway\Airway\bin\Release\Airway.exe"
+        #bodyFile: "body.md"
