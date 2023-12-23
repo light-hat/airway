@@ -38,6 +38,9 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
+    - name: Restore dotnet
+      run: dotnet restore Airway\AirwayUnitTest\
+
     - name: Execute unit tests
       run: dotnet test Airway\AirwayUnitTest\AirwayUnitTest.csproj --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
     
