@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="172" visitedSequencePoints="0" numBranchPoints="14" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="29" minCyclomaticComplexity="29" visitedClasses="0" numClasses="8" visitedMethods="0" numMethods="20" />
+  <Modules>
+    <Module hash="CDC49F96-CDF6-4A6B-8309-83819E733113">
+      <ModulePath>Airway.exe</ModulePath>
+      <ModuleTime>2023-12-23T02:43:10</ModuleTime>
+      <ModuleName>Airway</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\InterfaceChooseForm.cs" />
+        <File uid="2" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\InterfaceChooseForm.Designer.cs" />
+        <File uid="3" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\Program.cs" />
+        <File uid="4" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\VisualizerForm.cs" />
+        <File uid="5" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\VisualizerForm.Designer.cs" />
+        <File uid="6" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\Properties\Resources.Designer.cs" />
+        <File uid="7" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\Properties\Settings.Designer.cs" />
+        <File uid="8" fullPath="C:\Users\Admin\Desktop\pet\airway\Airway\Airway\Task\Task.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="33" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Airway.InterfaceChooseForm</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::UpdateNetworkInterfaces()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="32" ordinal="3" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="4" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="12" offsetend="14" sl="29" fileid="1" />
+                <BranchPoint vc="0" uspid="29" ordinal="1" path="1" offset="12" offsetend="26" sl="29" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="28" ec="1" el="33" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::InterfaceChooseForm_Load(System.Object,System.EventArgs)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" sl="44" sc="1" el="44" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="45" ordinal="3" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="46" ordinal="4" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="48" ordinal="5" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="49" ordinal="6" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="50" ordinal="7" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="51" ordinal="8" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="52" ordinal="9" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="53" ordinal="10" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="54" ordinal="11" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="55" ordinal="12" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="56" ordinal="13" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="57" ordinal="14" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="58" ordinal="15" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="59" ordinal="16" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="44" ordinal="1" path="1" offset="211" offsetend="26" sl="44" fileid="1" />
+                <BranchPoint vc="0" uspid="44" ordinal="0" path="0" offset="211" offsetend="216" sl="44" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="41" ec="1" el="59" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::NetworkInterfaceListView_DoubleClick(System.Object,System.EventArgs)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="67" ordinal="0" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="68" ordinal="1" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="69" ordinal="2" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="71" ordinal="3" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="72" ordinal="4" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="73" ordinal="5" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="74" ordinal="6" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="67" ec="1" el="74" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="85" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Airway.InterfaceChooseForm</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::Dispose(System.Boolean)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="4" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="21" ordinal="6" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="16" ordinal="0" path="0" offset="2" offsetend="4" sl="16" fileid="2" />
+                <BranchPoint vc="0" uspid="16" ordinal="1" path="1" offset="2" offsetend="15" sl="16" fileid="2" />
+                <BranchPoint vc="0" uspid="16" ordinal="2" path="0" offset="18" offsetend="20" sl="16" fileid="2" />
+                <BranchPoint vc="0" uspid="16" ordinal="3" path="1" offset="18" offsetend="34" sl="16" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="21" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="77" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::InitializeComponent()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="32" ordinal="2" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="33" ordinal="3" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="34" ordinal="4" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="35" ordinal="5" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="36" ordinal="6" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="37" ordinal="7" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="38" ordinal="8" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="39" ordinal="9" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="40" ordinal="10" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="41" ordinal="11" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="42" ordinal="12" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="46" ordinal="13" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="47" ordinal="14" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="48" ordinal="15" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="49" ordinal="16" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="50" ordinal="17" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="51" ordinal="18" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="52" ordinal="19" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="56" ordinal="20" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="57" ordinal="21" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="58" ordinal="22" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="59" ordinal="23" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="60" ordinal="24" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="61" ordinal="25" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="62" ordinal="26" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="63" ordinal="27" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="64" ordinal="28" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="65" ordinal="29" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="66" ordinal="30" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="67" ordinal="31" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="68" ordinal="32" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="69" ordinal="33" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="70" ordinal="34" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="71" ordinal="35" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="72" ordinal="36" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="73" ordinal="37" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="74" ordinal="38" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="75" ordinal="39" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="76" ordinal="40" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="77" ordinal="41" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="78" ordinal="42" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="82" ordinal="43" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="83" ordinal="44" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="87" ordinal="45" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="88" ordinal="46" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="92" ordinal="47" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="93" ordinal="48" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="97" ordinal="49" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="98" ordinal="50" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="102" ordinal="51" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="106" ordinal="52" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="110" ordinal="53" sl="110" sc="1" el="110" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="111" ordinal="54" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="115" ordinal="55" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="116" ordinal="56" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="120" ordinal="57" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="121" ordinal="58" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="122" ordinal="59" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="123" ordinal="60" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="124" ordinal="61" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="125" ordinal="62" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="129" ordinal="63" sl="129" sc="1" el="129" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="130" ordinal="64" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="131" ordinal="65" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="132" ordinal="66" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="133" ordinal="67" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="134" ordinal="68" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="135" ordinal="69" sl="135" sc="1" el="135" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="136" ordinal="70" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="137" ordinal="71" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="138" ordinal="72" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="139" ordinal="73" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="140" ordinal="74" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="141" ordinal="75" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="143" ordinal="76" sl="143" sc="1" el="143" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="30" ec="1" el="143" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.InterfaceChooseForm::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Airway.Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.Program::Main()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="20" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Airway.VisualizerForm</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.VisualizerForm::VisualizerForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="41" ordinal="2" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="38" ec="1" el="41" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.VisualizerForm::.ctor(Airway.Task.Task)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="3" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="25" ordinal="5" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="25" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Airway.VisualizerForm</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.VisualizerForm::Dispose(System.Boolean)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="4" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="21" ordinal="6" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="16" ordinal="0" path="0" offset="2" offsetend="4" sl="16" fileid="5" />
+                <BranchPoint vc="0" uspid="16" ordinal="1" path="1" offset="2" offsetend="15" sl="16" fileid="5" />
+                <BranchPoint vc="0" uspid="16" ordinal="2" path="0" offset="18" offsetend="20" sl="16" fileid="5" />
+                <BranchPoint vc="0" uspid="16" ordinal="3" path="1" offset="18" offsetend="34" sl="16" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="21" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.VisualizerForm::InitializeComponent()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="35" ordinal="2" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="36" ordinal="3" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="37" ordinal="4" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="38" ordinal="5" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="39" ordinal="6" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="40" ordinal="7" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="41" ordinal="8" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="43" ordinal="9" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="30" ec="1" el="43" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.VisualizerForm::.ctor(Airway.Task.Task)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Airway.Properties.Resources</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Resources.ResourceManager Airway.Properties.Resources::get_ResourceManager()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" sl="45" sc="1" el="45" ec="2" bec="2" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="46" ordinal="2" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="47" ordinal="3" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="48" ordinal="4" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="49" ordinal="5" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="50" ordinal="6" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="51" ordinal="7" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="45" ordinal="0" path="0" offset="11" offsetend="13" sl="45" fileid="6" />
+                <BranchPoint vc="0" uspid="45" ordinal="1" path="1" offset="11" offsetend="47" sl="45" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="44" ec="1" el="51" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Globalization.CultureInfo Airway.Properties.Resources::get_Culture()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="62" ordinal="0" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="63" ordinal="1" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="64" ordinal="2" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="62" ec="1" el="64" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="True" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.Properties.Resources::set_Culture(System.Globalization.CultureInfo)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="66" ordinal="0" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="67" ordinal="1" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="68" ordinal="2" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="66" ec="1" el="68" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.Properties.Resources::.ctor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="33" ordinal="0" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="34" ordinal="1" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="35" ordinal="2" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="33" ec="1" el="35" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Airway.Properties.Settings</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Airway.Properties.Settings Airway.Properties.Settings::get_Default()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="27" ordinal="2" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="25" ec="1" el="27" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Airway.Properties.Settings::.cctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Airway.Task.Task</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Net.NetworkInformation.NetworkInterface Airway.Task.Task::get_networkInterface()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
