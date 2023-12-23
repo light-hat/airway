@@ -22,11 +22,6 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: "Generate release changelog"
-      uses: heinrichreimer/action-github-changelog-generator@v2.3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }} 
-
     - name: Install .NET Core
       uses: actions/setup-dotnet@v3
       with:
