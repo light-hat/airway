@@ -18,7 +18,6 @@ jobs:
 
     env:
       Solution_Name: Airway\Airway.sln
-      Test_Project_Path: Airway\AirwayUnitTest\AirwayUnitTest.csproj
 
     steps:
     - name: Checkout
@@ -45,7 +44,7 @@ jobs:
         Configuration: ${{ matrix.configuration }}
 
     - name: Execute unit tests
-      run: dotnet test
+      run: dotnet test Airway\AirwayUnitTest\AirwayUnitTest.csproj
 
     - name: Build the application
       run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
