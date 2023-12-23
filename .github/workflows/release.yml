@@ -1,12 +1,11 @@
 name: Airway release builder
 
 on:
-  push:
+  create:
     tags:
       - '*'
 
 jobs:
-  #do_release:
     strategy:
       matrix:
         configuration: [Release]
