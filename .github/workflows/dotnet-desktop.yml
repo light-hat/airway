@@ -36,7 +36,7 @@ jobs:
 
     - name: Dotnet restore
       run: dotnet restore
-      working-directory: Airway\
+      working-directory: Airway\AirwayUnitTest
 
     - name: Execute unit tests
       run: dotnet test
