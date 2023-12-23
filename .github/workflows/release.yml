@@ -1,14 +1,9 @@
-name: Airway
+name: Airway release builder
 
 on:
   push:
-    branches: [ "master" ]
     tags:
       - '*'
-  #pull_request:
-  #  branches: [ "master" ]
-  #  tags:
-  #    - '*'
 
 jobs:
 
@@ -29,6 +24,12 @@ jobs:
       with:
         fetch-depth: 0
 
+    steps:
+      - name: "Generate release changelog"
+        uses: heinrichreimer/action-github-changelog-generator@v2.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} 
+
     - name: Install .NET Core
       uses: actions/setup-dotnet@v3
       with:
@@ -41,17 +42,6 @@ jobs:
       run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
       env:
         Configuration: ${{ matrix.configuration }}
-
-    #- name: Restore dotnet
-    #  run: dotnet restore Airway\AirwayUnitTest\
-
-    #- name: Execute unit tests
-    #  run: dotnet test Airway\AirwayUnitTest\AirwayUnitTest.csproj --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-    
-    #- name: Upload coverage reports to Codecov
-    #  uses: codecov/codecov-action@v3
-    #  env:
-    #    CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
     - name: Build the application
       run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
@@ -67,3 +57,4 @@ jobs:
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "Airway/Airway/bin/Release/Airway.exe"
+        bodyFile: "Release.md"
