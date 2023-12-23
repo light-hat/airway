@@ -1,6 +1,8 @@
 name: Airway
 
 on:
+  tags:
+    - '*'
   push:
     branches: [ "master" ]
   pull_request:
