@@ -30,7 +30,6 @@
         {
             this.OpenDumpButton = new System.Windows.Forms.Button();
             this.NetworkInterfaceListView = new System.Windows.Forms.ListView();
-            this.InterfaceLabel = new System.Windows.Forms.Label();
             this.DeviceNameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.DescriptionColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.InterfaceTypeColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -39,6 +38,7 @@
             this.SpeedColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BytesReceivedColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BytesSentColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.InterfaceLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // OpenDumpButton
@@ -75,15 +75,7 @@
             this.NetworkInterfaceListView.TabIndex = 1;
             this.NetworkInterfaceListView.UseCompatibleStateImageBehavior = false;
             this.NetworkInterfaceListView.View = System.Windows.Forms.View.Details;
-            // 
-            // InterfaceLabel
-            // 
-            this.InterfaceLabel.AutoSize = true;
-            this.InterfaceLabel.Location = new System.Drawing.Point(12, 17);
-            this.InterfaceLabel.Name = "InterfaceLabel";
-            this.InterfaceLabel.Size = new System.Drawing.Size(172, 13);
-            this.InterfaceLabel.TabIndex = 2;
-            this.InterfaceLabel.Text = "Select a network interface from list:";
+            this.NetworkInterfaceListView.DoubleClick += new System.EventHandler(this.NetworkInterfaceListView_DoubleClick);
             // 
             // DeviceNameColumn
             // 
@@ -122,6 +114,15 @@
             // 
             this.BytesSentColumn.Text = "Sent (bytes)";
             this.BytesSentColumn.Width = 64;
+            // 
+            // InterfaceLabel
+            // 
+            this.InterfaceLabel.AutoSize = true;
+            this.InterfaceLabel.Location = new System.Drawing.Point(12, 17);
+            this.InterfaceLabel.Name = "InterfaceLabel";
+            this.InterfaceLabel.Size = new System.Drawing.Size(172, 13);
+            this.InterfaceLabel.TabIndex = 2;
+            this.InterfaceLabel.Text = "Select a network interface from list:";
             // 
             // InterfaceChooseForm
             // 
