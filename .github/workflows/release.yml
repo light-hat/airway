@@ -6,52 +6,52 @@ on:
       - '*'
 
 jobs:
-    strategy:
-      matrix:
-        configuration: [Release]
+  strategy:
+    matrix:
+      configuration: [Release]
 
-    runs-on: windows-latest
+  runs-on: windows-latest
 
+  env:
+    Solution_Name: Airway\Airway.sln
+
+  steps:
+  - name: Checkout
+    uses: actions/checkout@v3
+    with:
+      fetch-depth: 0
+
+  steps:
+    - name: "Generate release changelog"
+      uses: heinrichreimer/action-github-changelog-generator@v2.3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} 
+
+  - name: Install .NET Core
+    uses: actions/setup-dotnet@v3
+    with:
+      dotnet-version: 6.0.x
+
+  - name: Setup MSBuild.exe
+    uses: microsoft/setup-msbuild@v1.0.2
+
+  - name: Restore the application
+    run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
     env:
-      Solution_Name: Airway\Airway.sln
+      Configuration: ${{ matrix.configuration }}
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
+  - name: Build the application
+    run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
+    env:
+      Configuration: ${{ matrix.configuration }}
 
-    steps:
-      - name: "Generate release changelog"
-        uses: heinrichreimer/action-github-changelog-generator@v2.3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }} 
+  - name: Archive exe artifact
+    uses: actions/upload-artifact@v3
+    with:
+      name: Airway
+      path: Airway/Airway/bin/Release/Airway.exe
 
-    - name: Install .NET Core
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 6.0.x
-
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1.0.2
-
-    - name: Restore the application
-      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
-      env:
-        Configuration: ${{ matrix.configuration }}
-
-    - name: Build the application
-      run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
-      env:
-        Configuration: ${{ matrix.configuration }}
-
-    - name: Archive exe artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: Airway
-        path: Airway/Airway/bin/Release/Airway.exe
-
-    - uses: ncipollo/release-action@v1
-      with:
-        artifacts: "Airway/Airway/bin/Release/Airway.exe"
-        bodyFile: "Release.md"
+  - uses: ncipollo/release-action@v1
+    with:
+      artifacts: "Airway/Airway/bin/Release/Airway.exe"
+      bodyFile: "Release.md"
