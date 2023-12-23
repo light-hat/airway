@@ -2,14 +2,11 @@ name: Airway release builder
 
 on:
   push:
-    branches: [ "master" ]
     tags:
       - '*'
 
 jobs:
-
   build:
-
     strategy:
       matrix:
         configuration: [Release]

@@ -30,7 +30,7 @@ if ($branch.Equals("master"))
         $patch = [int]$Matches[3]
         $version = "$($major).0.0"
         $version
-        #git tag -a $version -m $version
+        git tag -a $version -m $version
     }
 
     elseif ($set_minor.IsPresent)
@@ -41,7 +41,7 @@ if ($branch.Equals("master"))
         $patch = [int]$Matches[3]
         $version = "$($major).$($minor).0"
         $version
-        #git tag -a $version -m $version
+        git tag -a $version -m $version
     }
 
     else 
@@ -52,6 +52,7 @@ if ($branch.Equals("master"))
         $patch = [int]$Matches[3] + 1
         $version = "$($major).$($minor).$($patch)"
         $version
+        git tag -a $version -m $version
     }
 }
 
