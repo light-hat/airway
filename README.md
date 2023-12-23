@@ -1,5 +1,5 @@
 <div align="center">
-# Airway
+<h1>Airway</h1>
 
 Simpe network sniffer written on C#.
 
