@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: Airway\Airway.sln
+      Solution_Name: src\Airway.sln
 
     steps:
     - name: Checkout
@@ -44,9 +44,9 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Airway
-        path: Airway/Airway/bin/Release/Airway.exe
+        path: src/Airway/bin/Release/Airway.exe
 
     - uses: ncipollo/release-action@v1
       with:
-        artifacts: "Airway/Airway/bin/Release/Airway.exe"
+        artifacts: "src/Airway/bin/Release/Airway.exe"
         bodyFile: "Release.md"

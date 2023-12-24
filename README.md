@@ -6,9 +6,14 @@ Simpe network sniffer written on C#.
 [![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/any.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/any.yml/)
 [![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/release.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/release.yml/)
 [![GitHub release](https://img.shields.io/github/v/release/light-hat/airway.svg)](https://GitHub.com/light-hat/airway/releases/)
-[![GitHub issues](https://img.shields.io/github/issues/light-hat/airway.svg)](https://GitHub.com/light-hat/airway/issues/)
 
 </div>
+
+# TODO
+
+Конечно существует библиотека SharpPcap, которая умеет снимать траффик с сетевого интерфейса, но это не интересно =)
+Дальнейшая задача - реализовать функционал перевода выбранной сетевой карты в режим мониторинга, чтения с неё траффика
+Дальше надо реализовать как в Wireshark инкапсуляцию пакетов
 
 ## Features
 
