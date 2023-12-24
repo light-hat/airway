@@ -3,8 +3,8 @@
 
 Simpe network sniffer written on C#.
 
-[![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/any.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/any.yml/badge.svg)
-[![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/release.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/release.yml/badge.svg)
+[![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/any.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/any.yml/)
+[![Build and Deploy](https://github.com/light-hat/airway/actions/workflows/release.yml/badge.svg)](https://github.com/light-hat/airway/actions/workflows/release.yml/)
 [![GitHub release](https://img.shields.io/github/v/release/light-hat/airway.svg)](https://GitHub.com/light-hat/airway/releases/)
 [![GitHub issues](https://img.shields.io/github/issues/light-hat/airway.svg)](https://GitHub.com/light-hat/airway/issues/)
 
@@ -31,8 +31,7 @@ Update a minor version:
 .\autorelease.ps1 "update: your message" -set_minor
 ```
 
-Before: `0.0.1`;
-After:  `0.1.0`
+Result: `0.0.1` -> `0.1.0`
 
 Update a major version:
 
@@ -40,10 +39,9 @@ Update a major version:
 .\autorelease.ps1 "update: your message" -set_major
 ```
 
-Before: `0.1.1`;
-After:  `1.0.0`
+Result: `0.1.1` -> `1.0.0`
 
-Make commit without tag and release:
+To make commit `without` tag and release:
 
 ```powershell
 .\autocommit.ps1 "update: your message"
