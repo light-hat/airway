@@ -1,5 +1,5 @@
 Param (
-    [string] $message = "update: some new changes",
+    [string] $message = "update: some new changes"
 )
 
 $branch = $(git branch --show-current)

@@ -51,13 +51,3 @@ jobs:
       run: msbuild $env:Solution_Name /t:rebuild /p:Configuration=$env:Configuration
       env:
         Configuration: ${{ matrix.configuration }}
-
-    #- name: Archive exe artifact
-    #  uses: actions/upload-artifact@v3
-    #  with:
-    #    name: Airway
-    #    path: Airway/Airway/bin/Release/Airway.exe
-
-    #- uses: ncipollo/release-action@v1
-    #  with:
-    #    artifacts: "Airway/Airway/bin/Release/Airway.exe"
